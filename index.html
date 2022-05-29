@@ -46,11 +46,32 @@
         </div>
 
         <form action="" method="post">
-          <label for="tel">Телефон</label>
-          <input type="tel" name="" id="tel" />
-          <br />
-          <label for="name">Имя</label>
-          <input type="text" name="" id="name" />
+          <div class="input1">
+            <div class="labelName">
+              <label for="name">Имя</label>
+              <input type="text" name="" id="name" />
+            </div>
+            <!-- <br /> -->
+            <div class="labelPhone">
+              <label for="tel">Телефон</label>
+              <input type="tel" name="" id="tel" />
+            </div>
+          </div>
+
+          <button type="submit" id="button1">Отправить</button>
+          <div class="input2">
+            <input
+              type="checkbox"
+              name="solutionData"
+              id="solutionData"
+              required
+            />
+            <div class="footerCallMe">
+              Нажимая на кноаку отправить, вы принимаете
+              <a href="">Положение</a> и <a href="">Согласие</a> на <br />
+              обработку данных
+            </div>
+          </div>
         </form>
       </div>
       <div>asdsa</div>
