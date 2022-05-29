@@ -120,9 +120,17 @@ nav {
     align-items:center;
 
 }
-.callMe0 {
+.callMeX {
+    width:  inherit;
+    /* margin-left: ; */
+    display: flex;
     background: #777;
+    justify-content: space-between;
 
+}
+#X1 {
+    background: inherit;
+    
 }
 footer {
     display: flex;
