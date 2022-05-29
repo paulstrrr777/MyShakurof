@@ -105,7 +105,7 @@ nav {
     background: #2076ef;
 }
 
-.callMe {
+.callMeWindow {
     display: flex;
     flex-direction: column;
     padding: 2rem;
@@ -118,6 +118,7 @@ nav {
     margin-top: 7%;
     margin-left: 34%;
     align-items:center;
+    /* transition: 1; */
 
 }
 .callMeX {
@@ -130,7 +131,11 @@ nav {
 }
 #X1 {
     background: inherit;
-    
+    cursor: pointer;
+
+}
+.hidden {
+    display: none;
 }
 footer {
     display: flex;
